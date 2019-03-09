@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		548008B83084EF17A81951E2 /* Pods_AreebProjUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C876AF0E710F017CBA8AE7 /* Pods_AreebProjUITests.framework */; };
+		5892E01DD939BD74B86684B8 /* Pods_AreebProjTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 565DD0D9602CD7ECB4795300 /* Pods_AreebProjTests.framework */; };
+		8AEA8AEB2233E816001A50CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA8AEA2233E816001A50CB /* AppDelegate.swift */; };
+		8AEA8AED2233E816001A50CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA8AEC2233E816001A50CB /* ViewController.swift */; };
+		8AEA8AF02233E816001A50CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEA8AEE2233E816001A50CB /* Main.storyboard */; };
+		8AEA8AF22233E818001A50CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AEA8AF12233E818001A50CB /* Assets.xcassets */; };
+		8AEA8AF52233E818001A50CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEA8AF32233E818001A50CB /* LaunchScreen.storyboard */; };
+		8AEA8B002233E818001A50CB /* AreebProjTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA8AFF2233E818001A50CB /* AreebProjTests.swift */; };
+		8AEA8B0B2233E818001A50CB /* AreebProjUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA8B0A2233E818001A50CB /* AreebProjUITests.swift */; };
+		8AEA8B1D2233FA6D001A50CB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8AEA8B1C2233FA6D001A50CB /* .gitignore */; };
+		AA5AA94ED330EBC6E8F4F48D /* Pods_AreebProj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6618E7DA1E7963E86D9B8CCC /* Pods_AreebProj.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AEA8AFC2233E818001A50CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AEA8ADF2233E816001A50CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AEA8AE62233E816001A50CB;
+			remoteInfo = AreebProj;
+		};
+		8AEA8B072233E818001A50CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AEA8ADF2233E816001A50CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AEA8AE62233E816001A50CB;
+			remoteInfo = AreebProj;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C876AF0E710F017CBA8AE7 /* Pods_AreebProjUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AreebProjUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2318291B1C91B0E4B77BB8 /* Pods-AreebProjTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreebProjTests.debug.xcconfig"; path = "Target Support Files/Pods-AreebProjTests/Pods-AreebProjTests.debug.xcconfig"; sourceTree = "<group>"; };
+		503B59E5B31D87EC4BD909C3 /* Pods-AreebProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreebProj.release.xcconfig"; path = "Target Support Files/Pods-AreebProj/Pods-AreebProj.release.xcconfig"; sourceTree = "<group>"; };
+		565DD0D9602CD7ECB4795300 /* Pods_AreebProjTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AreebProjTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FDCE830D6424FBCD0465231 /* Pods-AreebProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreebProj.debug.xcconfig"; path = "Target Support Files/Pods-AreebProj/Pods-AreebProj.debug.xcconfig"; sourceTree = "<group>"; };
+		6618E7DA1E7963E86D9B8CCC /* Pods_AreebProj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AreebProj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEA8AE72233E816001A50CB /* AreebProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AreebProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEA8AEA2233E816001A50CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AEA8AEC2233E816001A50CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AEA8AEF2233E816001A50CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AEA8AF12233E818001A50CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AEA8AF42233E818001A50CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AEA8AF62233E818001A50CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AEA8AFB2233E818001A50CB /* AreebProjTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AreebProjTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEA8AFF2233E818001A50CB /* AreebProjTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreebProjTests.swift; sourceTree = "<group>"; };
+		8AEA8B012233E818001A50CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AEA8B062233E818001A50CB /* AreebProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AreebProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEA8B0A2233E818001A50CB /* AreebProjUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreebProjUITests.swift; sourceTree = "<group>"; };
+		8AEA8B0C2233E818001A50CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AEA8B1C2233FA6D001A50CB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		91737386EB563A34E1BC9E00 /* Pods-AreebProjUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreebProjUITests.debug.xcconfig"; path = "Target Support Files/Pods-AreebProjUITests/Pods-AreebProjUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EFCCDD126BE54133032B536 /* Pods-AreebProjUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreebProjUITests.release.xcconfig"; path = "Target Support Files/Pods-AreebProjUITests/Pods-AreebProjUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B29411820D696DA388F48D0D /* Pods-AreebProjTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreebProjTests.release.xcconfig"; path = "Target Support Files/Pods-AreebProjTests/Pods-AreebProjTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AEA8AE42233E816001A50CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5AA94ED330EBC6E8F4F48D /* Pods_AreebProj.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEA8AF82233E818001A50CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5892E01DD939BD74B86684B8 /* Pods_AreebProjTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEA8B032233E818001A50CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548008B83084EF17A81951E2 /* Pods_AreebProjUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5368601F433DE7DA061829CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6618E7DA1E7963E86D9B8CCC /* Pods_AreebProj.framework */,
+				565DD0D9602CD7ECB4795300 /* Pods_AreebProjTests.framework */,
+				18C876AF0E710F017CBA8AE7 /* Pods_AreebProjUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AEA8ADE2233E816001A50CB = {
+			isa = PBXGroup;
+			children = (
+				8AEA8AE92233E816001A50CB /* AreebProj */,
+				8AEA8AFE2233E818001A50CB /* AreebProjTests */,
+				8AEA8B092233E818001A50CB /* AreebProjUITests */,
+				8AEA8AE82233E816001A50CB /* Products */,
+				FFBAF4734F17F6C6BB7E6D93 /* Pods */,
+				5368601F433DE7DA061829CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8AEA8AE82233E816001A50CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AEA8AE72233E816001A50CB /* AreebProj.app */,
+				8AEA8AFB2233E818001A50CB /* AreebProjTests.xctest */,
+				8AEA8B062233E818001A50CB /* AreebProjUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AEA8AE92233E816001A50CB /* AreebProj */ = {
+			isa = PBXGroup;
+			children = (
+				8AEA8AEA2233E816001A50CB /* AppDelegate.swift */,
+				8AEA8AEC2233E816001A50CB /* ViewController.swift */,
+				8AEA8AEE2233E816001A50CB /* Main.storyboard */,
+				8AEA8AF12233E818001A50CB /* Assets.xcassets */,
+				8AEA8AF32233E818001A50CB /* LaunchScreen.storyboard */,
+				8AEA8AF62233E818001A50CB /* Info.plist */,
+				8AEA8B1C2233FA6D001A50CB /* .gitignore */,
+			);
+			path = AreebProj;
+			sourceTree = "<group>";
+		};
+		8AEA8AFE2233E818001A50CB /* AreebProjTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AEA8AFF2233E818001A50CB /* AreebProjTests.swift */,
+				8AEA8B012233E818001A50CB /* Info.plist */,
+			);
+			path = AreebProjTests;
+			sourceTree = "<group>";
+		};
+		8AEA8B092233E818001A50CB /* AreebProjUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AEA8B0A2233E818001A50CB /* AreebProjUITests.swift */,
+				8AEA8B0C2233E818001A50CB /* Info.plist */,
+			);
+			path = AreebProjUITests;
+			sourceTree = "<group>";
+		};
+		FFBAF4734F17F6C6BB7E6D93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FDCE830D6424FBCD0465231 /* Pods-AreebProj.debug.xcconfig */,
+				503B59E5B31D87EC4BD909C3 /* Pods-AreebProj.release.xcconfig */,
+				1F2318291B1C91B0E4B77BB8 /* Pods-AreebProjTests.debug.xcconfig */,
+				B29411820D696DA388F48D0D /* Pods-AreebProjTests.release.xcconfig */,
+				91737386EB563A34E1BC9E00 /* Pods-AreebProjUITests.debug.xcconfig */,
+				9EFCCDD126BE54133032B536 /* Pods-AreebProjUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AEA8AE62233E816001A50CB /* AreebProj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AEA8B0F2233E818001A50CB /* Build configuration list for PBXNativeTarget "AreebProj" */;
+			buildPhases = (
+				756DAF231F908976A949D447 /* [CP] Check Pods Manifest.lock */,
+				8AEA8AE32233E816001A50CB /* Sources */,
+				8AEA8AE42233E816001A50CB /* Frameworks */,
+				8AEA8AE52233E816001A50CB /* Resources */,
+				8AEA8B192233ECF6001A50CB /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AreebProj;
+			productName = AreebProj;
+			productReference = 8AEA8AE72233E816001A50CB /* AreebProj.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AEA8AFA2233E818001A50CB /* AreebProjTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AEA8B122233E818001A50CB /* Build configuration list for PBXNativeTarget "AreebProjTests" */;
+			buildPhases = (
+				5256A13B26F47B1B9906D5E4 /* [CP] Check Pods Manifest.lock */,
+				8AEA8AF72233E818001A50CB /* Sources */,
+				8AEA8AF82233E818001A50CB /* Frameworks */,
+				8AEA8AF92233E818001A50CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AEA8AFD2233E818001A50CB /* PBXTargetDependency */,
+			);
+			name = AreebProjTests;
+			productName = AreebProjTests;
+			productReference = 8AEA8AFB2233E818001A50CB /* AreebProjTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AEA8B052233E818001A50CB /* AreebProjUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AEA8B152233E818001A50CB /* Build configuration list for PBXNativeTarget "AreebProjUITests" */;
+			buildPhases = (
+				C80AC205B9B37AA939A01E3E /* [CP] Check Pods Manifest.lock */,
+				8AEA8B022233E818001A50CB /* Sources */,
+				8AEA8B032233E818001A50CB /* Frameworks */,
+				8AEA8B042233E818001A50CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AEA8B082233E818001A50CB /* PBXTargetDependency */,
+			);
+			name = AreebProjUITests;
+			productName = AreebProjUITests;
+			productReference = 8AEA8B062233E818001A50CB /* AreebProjUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AEA8ADF2233E816001A50CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nermeen Mohamed";
+				TargetAttributes = {
+					8AEA8AE62233E816001A50CB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8AEA8AFA2233E818001A50CB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8AEA8AE62233E816001A50CB;
+					};
+					8AEA8B052233E818001A50CB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8AEA8AE62233E816001A50CB;
+					};
+				};
+			};
+			buildConfigurationList = 8AEA8AE22233E816001A50CB /* Build configuration list for PBXProject "AreebProj" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AEA8ADE2233E816001A50CB;
+			productRefGroup = 8AEA8AE82233E816001A50CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AEA8AE62233E816001A50CB /* AreebProj */,
+				8AEA8AFA2233E818001A50CB /* AreebProjTests */,
+				8AEA8B052233E818001A50CB /* AreebProjUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AEA8AE52233E816001A50CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEA8B1D2233FA6D001A50CB /* .gitignore in Resources */,
+				8AEA8AF52233E818001A50CB /* LaunchScreen.storyboard in Resources */,
+				8AEA8AF22233E818001A50CB /* Assets.xcassets in Resources */,
+				8AEA8AF02233E816001A50CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEA8AF92233E818001A50CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEA8B042233E818001A50CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5256A13B26F47B1B9906D5E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AreebProjTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		756DAF231F908976A949D447 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AreebProj-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AEA8B192233ECF6001A50CB /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\" autocorrect\n\n";
+		};
+		C80AC205B9B37AA939A01E3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AreebProjUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AEA8AE32233E816001A50CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEA8AED2233E816001A50CB /* ViewController.swift in Sources */,
+				8AEA8AEB2233E816001A50CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEA8AF72233E818001A50CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEA8B002233E818001A50CB /* AreebProjTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEA8B022233E818001A50CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEA8B0B2233E818001A50CB /* AreebProjUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AEA8AFD2233E818001A50CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AEA8AE62233E816001A50CB /* AreebProj */;
+			targetProxy = 8AEA8AFC2233E818001A50CB /* PBXContainerItemProxy */;
+		};
+		8AEA8B082233E818001A50CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AEA8AE62233E816001A50CB /* AreebProj */;
+			targetProxy = 8AEA8B072233E818001A50CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AEA8AEE2233E816001A50CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AEA8AEF2233E816001A50CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AEA8AF32233E818001A50CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AEA8AF42233E818001A50CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AEA8B0D2233E818001A50CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AEA8B0E2233E818001A50CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AEA8B102233E818001A50CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDCE830D6424FBCD0465231 /* Pods-AreebProj.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AreebProj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nermeen.AreebProj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AEA8B112233E818001A50CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503B59E5B31D87EC4BD909C3 /* Pods-AreebProj.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AreebProj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nermeen.AreebProj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8AEA8B132233E818001A50CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F2318291B1C91B0E4B77BB8 /* Pods-AreebProjTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TRBJQ2KPMB;
+				INFOPLIST_FILE = AreebProjTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nermeen.AreebProjTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AreebProj.app/AreebProj";
+			};
+			name = Debug;
+		};
+		8AEA8B142233E818001A50CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B29411820D696DA388F48D0D /* Pods-AreebProjTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TRBJQ2KPMB;
+				INFOPLIST_FILE = AreebProjTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nermeen.AreebProjTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AreebProj.app/AreebProj";
+			};
+			name = Release;
+		};
+		8AEA8B162233E818001A50CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91737386EB563A34E1BC9E00 /* Pods-AreebProjUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TRBJQ2KPMB;
+				INFOPLIST_FILE = AreebProjUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nermeen.AreebProjUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AreebProj;
+			};
+			name = Debug;
+		};
+		8AEA8B172233E818001A50CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EFCCDD126BE54133032B536 /* Pods-AreebProjUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TRBJQ2KPMB;
+				INFOPLIST_FILE = AreebProjUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nermeen.AreebProjUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AreebProj;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AEA8AE22233E816001A50CB /* Build configuration list for PBXProject "AreebProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEA8B0D2233E818001A50CB /* Debug */,
+				8AEA8B0E2233E818001A50CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AEA8B0F2233E818001A50CB /* Build configuration list for PBXNativeTarget "AreebProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEA8B102233E818001A50CB /* Debug */,
+				8AEA8B112233E818001A50CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AEA8B122233E818001A50CB /* Build configuration list for PBXNativeTarget "AreebProjTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEA8B132233E818001A50CB /* Debug */,
+				8AEA8B142233E818001A50CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AEA8B152233E818001A50CB /* Build configuration list for PBXNativeTarget "AreebProjUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEA8B162233E818001A50CB /* Debug */,
+				8AEA8B172233E818001A50CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AEA8ADF2233E816001A50CB /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_AreebProjUITests {
+  umbrella header "Pods-AreebProjUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
